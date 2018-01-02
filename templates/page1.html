@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PAGE 1</title>
+</head>
+<body>
+	<div> Welcome to page 1  </div>
+	
+
+	<div id="user">
+		<input type="text" id="username"/>
+		<button type="button" id="userbtn">OK</button>
+	</div>
+	<br>
+	<br>
+	<div type="text" id="newUser">
+		
+	</div>
+	<br><br>
+	<div id="chatBody">
+		<div type="text" id="chatContent" >
+		</div>		
+	</div>
+	<br><br>
+
+	<div id="chattext">
+		<div> Chat </div>
+		<input type="text" id="chatInput"/>
+		<button type="button" id="send">Send</button>
+	</div>
+	<br><br>
+
+	<script src=' {{ static_url("js/jquery-3.1.1.js") }}'></script>
+	<script src= "{{ static_url('js/page1.js') }}"></script>
+
+</body>
+</html>
